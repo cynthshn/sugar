@@ -20,7 +20,7 @@ These python packages can be installed via pip.
 
 And the python package `PyApplyLUT`_ needs to be compiled manually, please refer to `Python uses .cube LUT files to apply filters to images`_.
 
-At the same time, the following software needs to be installed: `gyroflow`_, `easyHDR 3`_ and `timelapse-deflicker`_. Considering that `easyHDR 3`_ is a Windows program, it needs to be installed through `wine`_.
+At the same time, the following software needs to be installed: `gyroflow`_, `easyHDR 3`_, `rife-ncnn-vulkan`_ and `timelapse-deflicker`_. Considering that `easyHDR 3`_ is a Windows program, it needs to be installed through `wine`_.
 
 sugar.py
 --------
@@ -57,4 +57,5 @@ Please use parameters -1 to -6 in order to execute steps *Stabilization*, *Color
 .. _gyroflow: https://gyroflow.xyz/
 .. _easyHDR 3: https://www.easyhdr.com/
 .. _timelapse-deflicker: https://github.com/cyberang3l/timelapse-deflicker
+.. _rife-ncnn-vulkan: https://github.com/nihui/rife-ncnn-vulkan
 .. _wine: https://www.winehq.org/
