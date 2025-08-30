@@ -18,7 +18,7 @@ These python packages can be installed via pip.
 
     cv2 ffprobe numpy psutil PyQt5 rich
 
-And the python package *PyApplyLUT* needs to be compiled manually, please refer to `Python uses .cube LUT files to apply filters to images`_.
+And the python package `PyApplyLUT`_ needs to be compiled manually, please refer to `Python uses .cube LUT files to apply filters to images`_.
 
 At the same time, the following software needs to be installed: `gyroflow`_, `easyHDR 3`_ and `timelapse-deflicker`_. Considering that `easyHDR 3`_ is a Windows program, it needs to be installed through `wine`_.
 
@@ -52,6 +52,7 @@ To batch enhance videos, please place the videos in a directory and then execute
 
 Please use parameters -1 to -6 in order to execute steps *Stabilization*, *Color Gradation*, *LDR Enhancement*, *Time-lapse Deflickering*, *Frame Interpolation* and *Mergence* in sequence. After all steps are completed, these enhanced videos will be saved in the same directory with the name *ORIGINAL-FILENAME-sugar.mp4*.
 
+.. _PyApplyLUT: https://github.com/CKboss/PyApplyLUT
 .. _Python uses .cube LUT files to apply filters to images: https://www.cnblogs.com/JiangOil/p/15362009.html
 .. _gyroflow: https://gyroflow.xyz/
 .. _easyHDR 3: https://www.easyhdr.com/
